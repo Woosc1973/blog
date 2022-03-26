@@ -4,3 +4,17 @@
   <h2>by Steve WOO Techouse<br/>
   <img src="https://assets.website-files.com/5ba45f48e783e23d362f50ef/5ba5d5299ad7875f2f1dcdde_techouse%202.png"></h2>
 </center>
+
+Our blog has <%= Article.public_count %> articles and counting!
+
+<ul>
+  <% @articles.each do |article| %>
+    <% unless article.archived? %>
+      <li>
+        <%= link_to article.title, article %>
+      </li>
+    <% end %>
+  <% end %>
+</ul>
+
+<%= link_to "New Article", new_article_path %>
