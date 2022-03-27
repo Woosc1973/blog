@@ -73,8 +73,4 @@ $ git checkout sign-up
 Help with the Rails Tutoiral
 Experience shows that comparing code with the reference app is often helpful for debugging errors and tracking down discrepancies. For additional assistance with any issues in the tutorial, please consult the Rails Tutorial Help page.
 
-<<<<<<< HEAD
 Suspected errors, typos, and bugs can be emailed to support@learnenough.com. All such reports are gratefully received, but please double-check with the online version of the tutorial and this reference app before submitting.
-=======
-Suspected errors, typos, and bugs can be emailed to support@learnenough.com. All such reports are gratefully received, but please double-check with the online version of the tutorial and this reference app before submitting.
->>>>>>> 1853dbe (1 blog)
